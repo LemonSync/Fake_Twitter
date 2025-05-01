@@ -19,7 +19,7 @@
 
 <p align="center">
   Cek Websitenya
-  <a href="#">Klik Disini</a>
+  <a href="https://lemonsync.github.io/Fake_Twitter/">Klik Disini</a>
 </p>
 
 <p align="center">
