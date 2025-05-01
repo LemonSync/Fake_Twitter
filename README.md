@@ -18,6 +18,11 @@
 </h3>
 
 <p align="center">
+  Cek Websitenya
+  <a href="#">Klik Disini</a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/github/repo-size/LemonSync/Fake_Twitter?style=for-the-badge" />
   <img src="https://img.shields.io/github/languages/count/LemonSync/Fake_Twitter?style=for-the-badge" />
 </p>
