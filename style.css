@@ -4,17 +4,13 @@
   box-sizing: border-box;
 }
 
-h2, label, .label {
-  color: white;
-}
-
 html {
   font-family: "Roboto", sans-serif;
 }
 
 body {
-  background: linear-gradient(135deg, #096f67, #2a7561);
-  color: black;
+  background-color: #f7f8f9;
+  color: #0f1419;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -39,7 +35,6 @@ header {
   text-align: center;
 }
 header h1 {
-  color: #3c9731;
   font-size: 48px;
   font-weight: 500;
 }
@@ -64,8 +59,8 @@ main {
   align-items: flex-start;
 }
 main .form {
-  background-color: #044f48;
-  border: 1px darkgreen solid;
+  background-color: white;
+  border: 1px #dde7ef solid;
   border-radius: 8px;
   padding: 24px;
   flex: 1;
@@ -86,7 +81,6 @@ main .form .form-control label {
   font-weight: 500;
 }
 main .form .form-control input,
-main .form .form-control select,
 main .form .form-control textarea {
   display: block;
   font: inherit;
@@ -99,12 +93,10 @@ main .form .form-control textarea {
   transition: border-color 200ms ease-in;
 }
 main .form .form-control input:focus,
-main .form .form-control select:focus,
 main .form .form-control textarea:focus {
   border-color: #1da1f2;
 }
 main .form .form-control input::placeholder,
-main .form .form-control select::placeholder,
 main .form .form-control textarea::placeholder {
   color: #9ca1a5;
 }
@@ -315,8 +307,8 @@ main .form .form-control.upload .reset {
   }
 }
 main .tweet-desk {
-  background-color: #044f48;
-  border: 1px darkgreen solid;
+  background-color: white;
+  border: 1px #dde7ef solid;
   border-radius: 8px;
   padding: 24px;
   margin-left: 16px;
@@ -491,7 +483,7 @@ main .tweet-desk .tweet.dark .content .tweet_info {
 main .tweet-desk .tweet.dark .content .tweet_info .tweet_client {
   color: #1da1f2;
 }
-main .tweet-desk .tweet.dark .stats  {
+main .tweet-desk .tweet.dark .stats {
   border-top: 1px #2f3336 solid;
   color: #6e767d;
 }
@@ -564,7 +556,7 @@ main .tweet-desk .btn {
 }
 @media (max-width: 520px) {
   main .tweet-desk {
-    background-color: white;
+    background-color: #f7f8f9;
     width: 100%;
     margin: 0 auto 16px;
     box-shadow: none;
@@ -585,22 +577,19 @@ main .tweet-desk .btn {
 }
 
 footer {
-  text-decoration: none;
   padding: 32px 16px;
   font-size: 14px;
   font-weight: 400;
-  color: white;
+  color: #6e8698;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 footer .foot {
-  text-decoration: none;
   text-align: center;
 }
 footer .foot a {
   border-bottom: 1px #6e8698 dotted;
-  text-decoration: none;
 }
 @media (hover: hover) {
   footer .foot a:hover {
