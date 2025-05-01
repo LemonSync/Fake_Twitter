@@ -1,0 +1,621 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2, label, .label {
+  color: white;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #096f67, #2a7561);
+  color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  font: inherit;
+  color: inherit;
+}
+
+.bar {
+  height: 8px;
+  background-color: #1da1f2;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+}
+
+header {
+  padding: 32px 16px;
+  text-align: center;
+}
+header h1 {
+  color: #3c9731;
+  font-size: 48px;
+  font-weight: 500;
+}
+@media (max-width: 640px) {
+  header h1 {
+    font-size: 38px;
+  }
+}
+@media (max-width: 520px) {
+  header h1 {
+    font-size: 32px;
+  }
+}
+
+main {
+  flex: 1;
+  max-width: 1024px;
+  width: 100%;
+  margin: auto;
+  padding: 32px 16px;
+  display: flex;
+  align-items: flex-start;
+}
+main .form {
+  background-color: #044f48;
+  border: 1px darkgreen solid;
+  border-radius: 8px;
+  padding: 24px;
+  flex: 1;
+}
+main .form h2 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+main .form .form-control {
+  margin-bottom: 24px;
+}
+main .form .form-control:last-child {
+  margin-bottom: 2px;
+}
+main .form .form-control label {
+  display: block;
+  font-weight: 500;
+}
+main .form .form-control input,
+main .form .form-control select,
+main .form .form-control textarea {
+  display: block;
+  font: inherit;
+  width: 100%;
+  padding: 10px 14px;
+  margin: 4px 0;
+  border: 1px #cbd5e1 solid;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 200ms ease-in;
+}
+main .form .form-control input:focus,
+main .form .form-control select:focus,
+main .form .form-control textarea:focus {
+  border-color: #1da1f2;
+}
+main .form .form-control input::placeholder,
+main .form .form-control select::placeholder,
+main .form .form-control textarea::placeholder {
+  color: #9ca1a5;
+}
+main .form .form-control textarea {
+  resize: vertical;
+}
+main .form .form-control small {
+  font-size: 13px;
+  color: #8c9094;
+}
+main .form .form-control .username_input {
+  display: block;
+  background-color: white;
+  color: #8c9094;
+  font: inherit;
+  width: 100%;
+  padding: 0 14px;
+  margin: 4px 0;
+  border: 1px #cbd5e1 solid;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 200ms ease-in, color 200ms ease-in;
+  display: flex;
+  align-items: center;
+}
+main .form .form-control .username_input:focus-within {
+  border-color: #1da1f2;
+  color: #0f1419;
+}
+main .form .form-control .username_input::placeholder {
+  color: #9ca1a5;
+}
+main .form .form-control .username_input input {
+  display: inline;
+  margin: 0 0 0 2px;
+  padding: 10px 0;
+  border: none;
+}
+main .form .form-control input[type=radio] {
+  display: inline;
+  width: fit-content;
+}
+main .form .form-control input[type=radio] + label {
+  display: inline;
+}
+main .form .form-control p {
+  font-weight: 500;
+}
+main .form .form-control .group {
+  margin-top: 10px;
+  display: flex;
+}
+main .form .form-control .group .radio_container {
+  display: block;
+  position: relative;
+  padding-left: 22px;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+main .form .form-control .group .radio_container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+main .form .form-control .group .radio_mark {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  border: 1px #aab8c2 solid;
+  border-radius: 50%;
+  background-color: white;
+}
+main .form .form-control .group .radio_container input:focus ~ .radio_mark {
+  box-shadow: 0 0 0 3px rgba(29, 161, 242, 0.4);
+}
+main .form .form-control .group .radio_container input:checked ~ .radio_mark {
+  background-color: #1da1f2;
+  border-color: #1da1f2;
+}
+main .form .form-control .group .radio_mark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+main .form .form-control .group .radio_container input:checked ~ .radio_mark:after {
+  display: block;
+}
+main .form .form-control .group .radio_container .radio_mark:after {
+  top: 3px;
+  left: 3px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+main .form .form-control.upload {
+  margin-bottom: 42px;
+  display: flex;
+  position: relative;
+}
+main .form .form-control.upload label {
+  display: inline-block;
+  position: relative;
+  border-radius: 99px;
+  background-color: #1da1f2;
+  color: #fff;
+  font-weight: 400;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+@media (hover: hover) {
+  main .form .form-control.upload label {
+    transition: background 200ms ease-in;
+  }
+  main .form .form-control.upload label:hover {
+    background-color: #1a90d9;
+  }
+}
+@media (hover: none) {
+  main .form .form-control.upload label:active {
+    background-color: #1a90d9;
+  }
+}
+main .form .form-control.upload .file {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  z-index: -10;
+}
+main .form .form-control.upload .file-name {
+  font-size: 13px;
+  font-weight: 400;
+  position: absolute;
+  bottom: -29px;
+  background-color: #eef3f7;
+  color: #0f1419;
+  border-radius: 99px;
+  padding: 4px 16px;
+  display: none;
+}
+main .form .form-control.upload .file-name.show {
+  display: block;
+}
+main .form .form-control.upload .reset {
+  border: 1px #1da1f2 solid;
+  border-radius: 99px;
+  background-color: white;
+  color: #1da1f2;
+  font: inherit;
+  cursor: pointer;
+  padding: 10px 30px;
+  margin-left: 12px;
+}
+@media (hover: hover) {
+  main .form .form-control.upload .reset {
+    transition: background 200ms ease-in;
+  }
+  main .form .form-control.upload .reset:hover {
+    background-color: #e6e8eb;
+  }
+}
+@media (hover: none) {
+  main .form .form-control.upload .reset:active {
+    background-color: #e6e8eb;
+  }
+}
+@media (max-width: 890px) {
+  main .form {
+    width: 75%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 700px) {
+  main .form {
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 640px) {
+  main .form {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 520px) {
+  main .form {
+    background-color: #f7f8f9;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    padding: 24px 0;
+  }
+}
+main .tweet-desk {
+  background-color: #044f48;
+  border: 1px darkgreen solid;
+  border-radius: 8px;
+  padding: 24px;
+  margin-left: 16px;
+  position: sticky;
+  top: 16px;
+  z-index: 10;
+}
+main .tweet-desk h2 {
+  font-size: 22px;
+  font-weight: 500;
+}
+main .tweet-desk .tweet_box {
+  border: 1px #eff3f4 solid;
+  background-color: white;
+  margin: 32px 0 34px;
+  width: 440px;
+}
+main .tweet-desk .tweet_box.dim {
+  border: 1px #15202b solid;
+  background-color: #15202b;
+}
+main .tweet-desk .tweet_box.dark {
+  border: 1px #000000 solid;
+  background-color: #000000;
+}
+@media (max-width: 940px) {
+  main .tweet-desk .tweet_box {
+    width: 400px;
+  }
+}
+@media (max-width: 890px) {
+  main .tweet-desk .tweet_box {
+    max-width: 440px;
+    width: 100%;
+    margin: 32px auto;
+  }
+}
+main .tweet-desk .tweet {
+  border: 1px transparent solid;
+  background-color: white;
+  padding: 0 16px;
+  font-size: 15px;
+  width: 100%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+main .tweet-desk .tweet .head {
+  padding-top: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+main .tweet-desk .tweet .head .title {
+  display: flex;
+  align-items: center;
+}
+main .tweet-desk .tweet .head .title img {
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 12px;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: optimize-contrast;
+}
+main .tweet-desk .tweet .head .title .text p:first-child {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+main .tweet-desk .tweet .head .title .text p:first-child .verified {
+  margin-left: 2px;
+  font-weight: 400;
+  color: #1da1f2;
+}
+main .tweet-desk .tweet .head .title .text p:first-child .verified.hide {
+  display: none;
+}
+main .tweet-desk .tweet .head .title .text p:nth-child(2) {
+  color: #536471;
+}
+main .tweet-desk .tweet .head .dots {
+  color: #536471;
+}
+main .tweet-desk .tweet .content .message {
+  padding-top: 16px;
+  font-size: 23px;
+}
+main .tweet-desk .tweet .content .tweet_info {
+  color: #536471;
+  padding: 16px 0;
+  display: flex;
+}
+main .tweet-desk .tweet .stats {
+  border-top: 1px #eff3f4 solid;
+  color: #536471;
+  padding: 16px 4px;
+  display: flex;
+  flex-wrap: wrap;
+}
+main .tweet-desk .tweet .stats .stat {
+  margin-right: 24px;
+}
+main .tweet-desk .tweet .stats .stat .count {
+  font-weight: 700;
+  color: #0f1419;
+}
+main .tweet-desk .tweet .stats .stat.hide {
+  display: none;
+}
+@media (max-width: 520px) {
+  main .tweet-desk .tweet .stats .stat {
+    margin-right: 12px;
+  }
+}
+main .tweet-desk .tweet .tail {
+  border-top: 1px #eff3f4 solid;
+  padding: 12px 0;
+  display: flex;
+  justify-content: space-around;
+}
+main .tweet-desk .tweet .tail svg {
+  color: #536471;
+}
+main .tweet-desk .tweet.dim {
+  background-color: #15202b;
+  color: white;
+}
+main .tweet-desk .tweet.dim .head .title .text p:first-child .verified {
+  color: white;
+}
+main .tweet-desk .tweet.dim .head .title .text p:nth-child(2),
+main .tweet-desk .tweet.dim .head .title .text .dots {
+  color: #798a96;
+}
+main .tweet-desk .tweet.dim .content .tweet_info {
+  color: #798a96;
+}
+main .tweet-desk .tweet.dim .content .tweet_info .tweet_client {
+  color: #1da1f2;
+}
+main .tweet-desk .tweet.dim .stats {
+  border-top: 1px #38444d solid;
+  color: #798a96;
+}
+main .tweet-desk .tweet.dim .stats .stat .count {
+  color: white;
+}
+main .tweet-desk .tweet.dim .tail {
+  border-top: 1px #38444d solid;
+}
+main .tweet-desk .tweet.dim .tail svg {
+  color: #798a96;
+}
+main .tweet-desk .tweet.dark {
+  background-color: #000000;
+  color: #d9d9d9;
+}
+main .tweet-desk .tweet.dark .head .title .text p:first-child .verified {
+  color: #d9d9d9;
+}
+main .tweet-desk .tweet.dark .head .title .text p:nth-child(2),
+main .tweet-desk .tweet.dark .head .title .text .dots {
+  color: #6e767d;
+}
+main .tweet-desk .tweet.dark .content .tweet_info {
+  color: #6e767d;
+}
+main .tweet-desk .tweet.dark .content .tweet_info .tweet_client {
+  color: #1da1f2;
+}
+main .tweet-desk .tweet.dark .stats  {
+  border-top: 1px #2f3336 solid;
+  color: #6e767d;
+}
+main .tweet-desk .tweet.dark .stats .stat .count {
+  color: white;
+}
+main .tweet-desk .tweet.dark .tail {
+  border-top: 1px #2f3336 solid;
+}
+main .tweet-desk .tweet.dark .tail svg {
+  color: #6e767d;
+}
+@media (max-width: 395px) {
+  main .tweet-desk .tweet {
+    font-size: 14px;
+  }
+  main .tweet-desk .tweet .content .message {
+    font-size: 21px;
+  }
+  main .tweet-desk .tweet .stats {
+    padding: 16px 0;
+  }
+  main .tweet-desk .tweet .stats .stat {
+    margin-right: 8px;
+  }
+}
+main .tweet-desk .btn {
+  display: block;
+  border: none;
+  border-radius: 6px;
+  border-radius: 99px;
+  background-color: #1da1f2;
+  color: white;
+  font: inherit;
+  margin: auto;
+  padding: 11px 33px;
+  cursor: pointer;
+}
+@media (hover: hover) {
+  main .tweet-desk .btn {
+    transition: background 200ms ease-in;
+  }
+  main .tweet-desk .btn:hover {
+    background-color: #1a90d9;
+  }
+}
+@media (hover: none) {
+  main .tweet-desk .btn:active {
+    background-color: #1a90d9;
+  }
+}
+@media (max-width: 890px) {
+  main .tweet-desk {
+    width: 75%;
+    margin: 0 auto 16px;
+    position: static;
+  }
+}
+@media (max-width: 700px) {
+  main .tweet-desk {
+    width: 85%;
+    margin: 0 auto 16px;
+  }
+}
+@media (max-width: 640px) {
+  main .tweet-desk {
+    width: 95%;
+    margin: 0 auto 16px;
+  }
+}
+@media (max-width: 520px) {
+  main .tweet-desk {
+    background-color: white;
+    width: 100%;
+    margin: 0 auto 16px;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    padding: 24px 0;
+  }
+}
+@media (max-width: 890px) {
+  main {
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 520px) {
+  main {
+    padding: 16px;
+  }
+}
+
+footer {
+  text-decoration: none;
+  padding: 32px 16px;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .foot {
+  text-decoration: none;
+  text-align: center;
+}
+footer .foot a {
+  border-bottom: 1px #6e8698 dotted;
+  text-decoration: none;
+}
+@media (hover: hover) {
+  footer .foot a:hover {
+    border-bottom-style: solid;
+  }
+}
+@media (hover: none) {
+  footer .foot a:active {
+    border-bottom-style: solid;
+  }
+}
+footer .dot {
+  width: 3px;
+  height: 3px;
+  background-color: #6e8698;
+  border-radius: 50%;
+  margin: 0 6px;
+}
