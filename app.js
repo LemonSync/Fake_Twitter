@@ -1,10 +1,396 @@
-/* 
-  Mau yang gak dienc? cukup beri start repo gw ini
-  https://github.com/LemonSync/Fake_Twitter
-  Kalo sampe 5 star, gw enter langsung kode yang gak di enc
-  
-  
-  Makanya itu, kasih star reponya
+/*
+    Makasih starnya :)
 */
 
-const _0x4d7604=_0x5042;(function(_0x446d26,_0xcce0f1){const _0x16a4ef=_0x5042,_0x3c92ba=_0x446d26();while(!![]){try{const _0x3262cc=parseInt(_0x16a4ef(0x1e4))/0x1+parseInt(_0x16a4ef(0x210))/0x2*(parseInt(_0x16a4ef(0x21e))/0x3)+parseInt(_0x16a4ef(0x1e2))/0x4+parseInt(_0x16a4ef(0x1ee))/0x5+parseInt(_0x16a4ef(0x207))/0x6*(parseInt(_0x16a4ef(0x20f))/0x7)+-parseInt(_0x16a4ef(0x1dd))/0x8+-parseInt(_0x16a4ef(0x1d4))/0x9;if(_0x3262cc===_0xcce0f1)break;else _0x3c92ba['push'](_0x3c92ba['shift']());}catch(_0x17f1ee){_0x3c92ba['push'](_0x3c92ba['shift']());}}}(_0xd459,0x7a165));const avatar=document[_0x4d7604(0x20b)](_0x4d7604(0x1be)),fileName=document[_0x4d7604(0x20b)]('file-name'),reset=document[_0x4d7604(0x20b)](_0x4d7604(0x20e)),nama=document[_0x4d7604(0x20b)](_0x4d7604(0x1db)),username=document['getElementById'](_0x4d7604(0x1f7)),message=document['getElementById'](_0x4d7604(0x20a)),waktu=document[_0x4d7604(0x20b)](_0x4d7604(0x213)),tanggal=document[_0x4d7604(0x20b)](_0x4d7604(0x215)),client=document['getElementById']('client'),retweets=document[_0x4d7604(0x20b)](_0x4d7604(0x1c9)),quotes=document[_0x4d7604(0x20b)](_0x4d7604(0x21b)),like=document[_0x4d7604(0x20b)](_0x4d7604(0x1d7)),themeRadios=document[_0x4d7604(0x1dc)](_0x4d7604(0x1cd)),verifiedRadios=document[_0x4d7604(0x1dc)](_0x4d7604(0x204)),tweetBox=document[_0x4d7604(0x20b)](_0x4d7604(0x1d9)),tweet=document[_0x4d7604(0x20b)](_0x4d7604(0x1ca)),tweetAvatar=document[_0x4d7604(0x20b)](_0x4d7604(0x206)),tweetName=document[_0x4d7604(0x20b)]('tweet_name'),tweetVerified=document[_0x4d7604(0x20b)](_0x4d7604(0x21a)),tweetUsername=document[_0x4d7604(0x20b)](_0x4d7604(0x209)),tweetMessage=document['getElementById']('tweet_message'),tweetTime=document[_0x4d7604(0x20b)](_0x4d7604(0x1bc)),tweetDate=document['getElementById']('tweet_date'),tweetClient=document[_0x4d7604(0x20b)]('tweet_client'),tweetRetweets=document['getElementById']('tweet_retweets'),tweetQuotes=document['getElementById'](_0x4d7604(0x200)),tweetLikes=document['getElementById'](_0x4d7604(0x1e5)),download=document['getElementById'](_0x4d7604(0x1c1));function random(_0xd1ed9f,_0x3625c9){const _0x27deff=_0x4d7604;return Math[_0x27deff(0x1f1)](Math['random']()*(_0xd1ed9f-_0x3625c9+0x1))+_0x3625c9;}function _0x5042(_0x19acae,_0xe1ac85){const _0xd45965=_0xd459();return _0x5042=function(_0x5042ee,_0x1f775b){_0x5042ee=_0x5042ee-0x1ba;let _0x5e3c6b=_0xd45965[_0x5042ee];return _0x5e3c6b;},_0x5042(_0x19acae,_0xe1ac85);}let themeColor='#ffffff',color=_0x4d7604(0x203);function numberFormatter(_0x94d914,_0x4bb0c8){const _0x3e2cd2=_0x4d7604;if(_0x94d914===null)return null;if(_0x94d914===0x0)return'0';_0x4bb0c8=!_0x4bb0c8||_0x4bb0c8<0x0?0x0:_0x4bb0c8;let _0x27b307=_0x94d914[_0x3e2cd2(0x1f6)](0x2)[_0x3e2cd2(0x1c8)]('e'),_0x39c470=_0x27b307[_0x3e2cd2(0x1fb)]===0x1?0x0:Math[_0x3e2cd2(0x1f1)](Math[_0x3e2cd2(0x1cb)](_0x27b307[0x1][_0x3e2cd2(0x1d3)](0x1),0xe)/0x3),_0x499e9f=_0x39c470<0x1?_0x94d914['toFixed'](0x0+_0x4bb0c8):(_0x94d914/Math[_0x3e2cd2(0x219)](0xa,_0x39c470*0x3))[_0x3e2cd2(0x1ce)](0x1+_0x4bb0c8),_0x25b968=_0x499e9f<0x0?_0x499e9f:Math['abs'](_0x499e9f),_0x2a54db=_0x25b968+['','K','M','B','T'][_0x39c470];return _0x2a54db;}function showFileName(_0x5bd077){const _0x1f0516=_0x4d7604;fileName[_0x1f0516(0x1ea)][_0x1f0516(0x1d6)](_0x1f0516(0x1d8)),fileName['innerText']=_0x5bd077;}function profileFunction(){const _0x12364e=_0x4d7604,[_0x36f5e4]=avatar[_0x12364e(0x20d)];_0x36f5e4&&(showFileName(_0x36f5e4[_0x12364e(0x1db)]),tweetAvatar[_0x12364e(0x1f5)]=URL['createObjectURL'](_0x36f5e4));}function resetProfileFunction(){const _0x4330de=_0x4d7604;fileName[_0x4330de(0x1f9)]='',fileName[_0x4330de(0x1ea)][_0x4330de(0x1f4)](_0x4330de(0x1d8)),tweetAvatar['src']=_0x4330de(0x1df);}function namaFunction(){const _0x50e69b=_0x4d7604,_0x23780c=nama[_0x50e69b(0x1c4)][_0x50e69b(0x1ec)]();if(_0x23780c==='')tweetName[_0x50e69b(0x1f9)]=_0x50e69b(0x212);else _0x23780c[_0x50e69b(0x1fb)]>0x1e?tweetName[_0x50e69b(0x1f9)]=_0x50e69b(0x1ef):tweetName[_0x50e69b(0x1f9)]=_0x23780c;const _0x18dc4a=nama[_0x50e69b(0x1cc)][_0x50e69b(0x205)](_0x50e69b(0x21f));_0x18dc4a[_0x50e69b(0x1f9)]=_0x23780c[_0x50e69b(0x1fb)];}function usernameFunction(){const _0x2ff327=_0x4d7604,_0x34f3b3=username[_0x2ff327(0x1c4)][_0x2ff327(0x1ec)]();if(_0x34f3b3==='')tweetUsername[_0x2ff327(0x1f9)]=_0x2ff327(0x1f7);else{if(!_0x34f3b3['match'](/^[a-zA-Z0-9_]+$/))tweetUsername['innerText']=_0x2ff327(0x1c6);else _0x34f3b3[_0x2ff327(0x1fb)]>0xf?tweetUsername[_0x2ff327(0x1f9)]=_0x2ff327(0x1bf):tweetUsername[_0x2ff327(0x1f9)]=_0x34f3b3;}const _0x5c6080=username['parentElement'][_0x2ff327(0x1cc)]['querySelector'](_0x2ff327(0x21f));_0x5c6080['innerText']=_0x34f3b3[_0x2ff327(0x1fb)];}function pesanFunction(){const _0x3f1765=_0x4d7604,_0x57d9c5=message[_0x3f1765(0x1c4)][_0x3f1765(0x1ec)]();if(_0x57d9c5==='')tweetMessage['innerText']=_0x3f1765(0x1f2);else _0x57d9c5[_0x3f1765(0x1fb)]>0x118?tweetMessage[_0x3f1765(0x1f9)]='Pesan\x20terlalu\x20panjang':tweetMessage[_0x3f1765(0x1f9)]=_0x57d9c5;const _0x3bb6a8=message[_0x3f1765(0x1cc)][_0x3f1765(0x205)]('.count');_0x3bb6a8[_0x3f1765(0x1f9)]=_0x57d9c5[_0x3f1765(0x1fb)];}function waktuFunction(){const _0x12e54a=_0x4d7604,_0x249ebe=waktu[_0x12e54a(0x1c4)][_0x12e54a(0x1ec)]();if(_0x249ebe==='')tweetTime['innerText']=getCurrentTime();else _0x249ebe[_0x12e54a(0x1ff)]()===_0x12e54a(0x1d5)?tweetTime[_0x12e54a(0x1f9)]=getCurrentTime():tweetTime[_0x12e54a(0x1f9)]=_0x249ebe;}function tanggalFunction(){const _0x5efea3=_0x4d7604,_0x33cac9=tanggal['value'][_0x5efea3(0x1ec)]();if(_0x33cac9==='')tweetDate[_0x5efea3(0x1f9)]=ambilTanggal();else _0x33cac9[_0x5efea3(0x1ff)]()===_0x5efea3(0x1d5)?tweetDate[_0x5efea3(0x1f9)]=ambilTanggal():tweetDate[_0x5efea3(0x1f9)]=_0x33cac9;}function clientFunction(){const _0x69f454=_0x4d7604,_0xb7a279=client['value'][_0x69f454(0x1ec)]();_0xb7a279===''?tweetClient[_0x69f454(0x1f9)]=_0x69f454(0x1c0):tweetClient[_0x69f454(0x1f9)]=_0xb7a279;}function retweetsFunction(){const _0x33bdf9=_0x4d7604;tweetRetweets[_0x33bdf9(0x1bb)][_0x33bdf9(0x1ea)][_0x33bdf9(0x1f4)](_0x33bdf9(0x1da));let _0x52a54e=retweets['value'];_0x52a54e===''?tweetRetweets[_0x33bdf9(0x1f9)]='96':(_0x52a54e=+_0x52a54e,_0x52a54e>=0x0?_0x52a54e===0x0?tweetRetweets['parentElement'][_0x33bdf9(0x1ea)][_0x33bdf9(0x1d6)]('hide'):tweetRetweets[_0x33bdf9(0x1f9)]=numberFormatter(_0x52a54e):tweetRetweets['innerText']='96');}function quotesFunction(){const _0x50e0ce=_0x4d7604;tweetQuotes[_0x50e0ce(0x1bb)]['classList'][_0x50e0ce(0x1f4)](_0x50e0ce(0x1da));let _0x81e93b=quotes[_0x50e0ce(0x1c4)];_0x81e93b===''?tweetQuotes['innerText']='88':(_0x81e93b=+_0x81e93b,_0x81e93b>=0x0?_0x81e93b===0x0?tweetQuotes[_0x50e0ce(0x1bb)][_0x50e0ce(0x1ea)][_0x50e0ce(0x1d6)](_0x50e0ce(0x1da)):tweetQuotes['innerText']=numberFormatter(_0x81e93b):tweetQuotes[_0x50e0ce(0x1f9)]='88');}function likeFunction(){const _0xf95072=_0x4d7604;tweetLikes[_0xf95072(0x1bb)][_0xf95072(0x1ea)][_0xf95072(0x1f4)](_0xf95072(0x1da));let _0x392349=likes[_0xf95072(0x1c4)];_0x392349===''?tweetLikes[_0xf95072(0x1f9)]=_0xf95072(0x1e8):(_0x392349=+_0x392349,_0x392349>=0x0?_0x392349===0x0?tweetLikes[_0xf95072(0x1bb)][_0xf95072(0x1ea)][_0xf95072(0x1d6)](_0xf95072(0x1da)):tweetLikes['innerText']=numberFormatter(_0x392349):tweetLikes[_0xf95072(0x1f9)]='153');}function getCurrentTime(){const _0x4585c6=_0x4d7604,_0x3a4d68=new Date();let _0x407e79=+_0x3a4d68['getHours'](),_0xcc2d10=('00'+_0x3a4d68[_0x4585c6(0x1fc)]())[_0x4585c6(0x1d3)](-0x2),_0x42d6ec;if(_0x407e79>0xc)_0x407e79=_0x407e79-0xc,_0x42d6ec='PM';else{if(_0x407e79===0x0)_0x407e79=0xc,_0x42d6ec='AM';else _0x407e79===0xc?_0x42d6ec='PM':_0x42d6ec='AM';}return _0x407e79+':'+_0xcc2d10+'\x20'+_0x42d6ec;}function ambilTanggal(){const _0x139b8d=_0x4d7604,_0xa2e79=[_0x139b8d(0x1e0),_0x139b8d(0x1c7),_0x139b8d(0x1ba),_0x139b8d(0x208),_0x139b8d(0x214),_0x139b8d(0x20c),_0x139b8d(0x1fe),_0x139b8d(0x1e1),_0x139b8d(0x1d2),_0x139b8d(0x1c3),_0x139b8d(0x1e9),'Dec'],_0x31a2aa=new Date(),_0x3c8648=_0x31a2aa['getDate'](),_0x5458d5=_0x31a2aa[_0x139b8d(0x1de)](),_0x17aef6=_0x31a2aa[_0x139b8d(0x1f8)]();return _0xa2e79[_0x5458d5]+'\x20'+_0x3c8648+',\x20'+_0x17aef6;}function toggleTheme(_0x8f28a0){const _0x5ac592=_0x4d7604;let _0x43b9d4;for(let _0x1ef5ef=0x0;_0x1ef5ef<themeRadios[_0x5ac592(0x1fb)];_0x1ef5ef++){themeRadios[_0x1ef5ef][_0x5ac592(0x211)]&&(_0x43b9d4=themeRadios[_0x1ef5ef][_0x5ac592(0x1c4)]);}if(_0x43b9d4===_0x5ac592(0x1bd))tweet['className']=_0x5ac592(0x1fd),tweetBox[_0x5ac592(0x1eb)]='tweet_box\x20dim',themeColor=_0x5ac592(0x1e7);else _0x43b9d4==='dark'?(tweet['className']=_0x5ac592(0x201),tweetBox[_0x5ac592(0x1eb)]='tweet_box\x20dark',themeColor='#000000'):(tweet[_0x5ac592(0x1eb)]=_0x5ac592(0x1ca),tweetBox[_0x5ac592(0x1eb)]=_0x5ac592(0x1d9),themeColor='#ffffff');}function _0xd459(){const _0x1f8725=['toPrecision','username','getFullYear','innerText','scrollY','length','getMinutes','tweet\x20dim','Jul','toLowerCase','tweet_quotes','tweet\x20dark','.tweet','#0f1419','verified_radio','querySelector','tweet_avatar','30rmvDtX','Apr','tweet_username','message','getElementById','Jun','files','reset','297311QTnvOJ','192540PyaETL','checked','Name','time','May','date','appendChild','scrollX','body','pow','tweet_verified','quotes','click','string','3aSagUU','.count','href','offsetHeight','Mar','parentElement','tweet_time','dim','avatar','Username\x20terlalu\x20panjang','Twitter\x20For\x20iPhone','download','random','Oct','value','addEventListener','Gak\x20boleh\x20pakai\x20itu','Feb','split','retweets','tweet','min','nextElementSibling','theme_radio','toFixed','then','change','offsetWidth','Sep','slice','13969926ENHwpM','now','add','likes','show','tweet_box','hide','name','getElementsByName','3641760YhqsSZ','getMonth','assets/silhoutte.png','Jan','Aug','2863908IwjhuD','input','735453thLVKl','tweet_likes','scrollTo','#15202b','153','Nov','classList','className','trim','createElement','3737190gMOQVN','Nama\x20Terlalu\x20Panjang','removeChild','floor','Lemon\x20merupakan\x20salah\x20satu\x20buah\x20terbaik\x20di\x20dunia.','documentElement','remove','src'];_0xd459=function(){return _0x1f8725;};return _0xd459();}function verifikasi(){const _0x27604f=_0x4d7604;let _0x15d98c;for(let _0x145544=0x0;_0x145544<verifiedRadios['length'];_0x145544++){verifiedRadios[_0x145544][_0x27604f(0x211)]&&(_0x15d98c=verifiedRadios[_0x145544][_0x27604f(0x1c4)]);}_0x15d98c===_0x27604f(0x1d8)?tweetVerified[_0x27604f(0x1ea)][_0x27604f(0x1f4)]('hide'):tweetVerified[_0x27604f(0x1ea)][_0x27604f(0x1d6)](_0x27604f(0x1da));}function generateFileName(){const _0x42ab00=_0x4d7604;return _0x42ab00(0x1ca)+(Math[_0x42ab00(0x1f1)](Math[_0x42ab00(0x1c2)]()*0x15f90)+0x2710);}function saveAs(_0x3d210f,_0x55229a){const _0x33e9a9=_0x4d7604,_0x3d11a0=document[_0x33e9a9(0x1ed)]('a');typeof _0x3d11a0[_0x33e9a9(0x1c1)]===_0x33e9a9(0x21d)?(_0x3d11a0[_0x33e9a9(0x220)]=_0x3d210f,_0x3d11a0[_0x33e9a9(0x1c1)]=_0x55229a,document[_0x33e9a9(0x218)][_0x33e9a9(0x216)](_0x3d11a0),_0x3d11a0[_0x33e9a9(0x21c)](),document[_0x33e9a9(0x218)][_0x33e9a9(0x1f0)](_0x3d11a0)):window['open'](_0x3d210f);}function takeScreenshot(){const _0x285700=_0x4d7604;window[_0x285700(0x1e6)](0x0,0x0),html2canvas(document[_0x285700(0x205)](_0x285700(0x202)),{'allowTaint':!![],'backgroundColor':themeColor,'useCORS':!![],'scrollX':-window[_0x285700(0x217)],'scrollY':-window[_0x285700(0x1fa)],'windowWidth':document[_0x285700(0x1f3)][_0x285700(0x1d1)],'windowHeight':document[_0x285700(0x1f3)][_0x285700(0x221)]})[_0x285700(0x1cf)](_0xd595f3=>{saveAs(_0xd595f3['toDataURL'](),generateFileName());});}function takWaktu(){waktuFunction(),tanggalFunction();}takWaktu(),avatar[_0x4d7604(0x1c5)]('change',profileFunction),reset[_0x4d7604(0x1c5)](_0x4d7604(0x21c),resetProfileFunction),nama[_0x4d7604(0x1c5)](_0x4d7604(0x1e3),namaFunction),username[_0x4d7604(0x1c5)](_0x4d7604(0x1e3),usernameFunction),message['addEventListener'](_0x4d7604(0x1e3),pesanFunction),waktu[_0x4d7604(0x1c5)](_0x4d7604(0x1e3),waktuFunction),tanggal[_0x4d7604(0x1c5)](_0x4d7604(0x1e3),tanggalFunction),client[_0x4d7604(0x1c5)](_0x4d7604(0x1e3),clientFunction),retweets['addEventListener'](_0x4d7604(0x1e3),retweetsFunction),quotes[_0x4d7604(0x1c5)](_0x4d7604(0x1e3),quotesFunction),like[_0x4d7604(0x1c5)](_0x4d7604(0x1e3),likeFunction),download[_0x4d7604(0x1c5)](_0x4d7604(0x21c),takeScreenshot);for(let i=0x0;i<themeRadios[_0x4d7604(0x1fb)];i++){themeRadios[i][_0x4d7604(0x1c5)](_0x4d7604(0x1d0),toggleTheme);}for(let i=0x0;i<verifiedRadios[_0x4d7604(0x1fb)];i++){verifiedRadios[i][_0x4d7604(0x1c5)]('change',verifikasi);}
+const avatar = document.getElementById('avatar');
+const fileName = document.getElementById('file-name');
+const reset = document.getElementById('reset');
+const nama = document.getElementById('name');
+const username = document.getElementById('username');
+const message = document.getElementById('message');
+const waktu = document.getElementById('time');
+const tanggal = document.getElementById('date');
+const client = document.getElementById('client');
+const retweets = document.getElementById('retweets');
+const quotes = document.getElementById('quotes');
+const like = document.getElementById('likes');
+const themeRadios = document.getElementsByName('theme_radio');
+const verifiedRadios = document.getElementsByName('verified_radio');
+const tweetBox = document.getElementById('tweet_box');
+const tweet = document.getElementById('tweet');
+const tweetAvatar = document.getElementById('tweet_avatar');
+const tweetName = document.getElementById('tweet_name');
+const tweetVerified = document.getElementById('tweet_verified');
+const tweetUsername = document.getElementById('tweet_username');
+const tweetMessage = document.getElementById('tweet_message');
+const tweetTime = document.getElementById('tweet_time');
+const tweetDate = document.getElementById('tweet_date');
+const tweetClient = document.getElementById('tweet_client');
+const tweetRetweets = document.getElementById('tweet_retweets');
+const tweetQuotes = document.getElementById('tweet_quotes');
+const tweetLikes = document.getElementById('tweet_likes');
+const download = document.getElementById('download');
+
+// Function untuk random, tapi ga guna :v
+function random(max, min) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+let themeColor = '#ffffff';
+let color = '#0f1419'
+
+// Ini mungubah tulisan yang awalnya 1000 menjadi 1k (format number)
+function numberFormatter(num, fixed) {
+  if (num === null) {
+    return null;
+  }
+
+  if (num === 0) {
+    return '0';
+  }
+
+  fixed = !fixed || fixed < 0 ? 0 : fixed;
+
+  let b = num.toPrecision(2).split('e'),
+    k = b.length === 1 ? 0 : Math.floor(Math.min(b[1].slice(1), 14) / 3),
+    c =
+      k < 1
+        ? num.toFixed(0 + fixed)
+        : (num / Math.pow(10, k * 3)).toFixed(1 + fixed),
+    d = c < 0 ? c : Math.abs(c),
+    e = d + ['', 'K', 'M', 'B', 'T'][k];
+
+  return e;
+}
+
+// Ini hanya untuk penempatan nama foto saja, tidak terlalu berguna juga
+function showFileName(name) {
+  fileName.classList.add('show');
+  fileName.innerText = name;
+}
+
+// Function untuk penempatan foto profile yang sudah diupload
+function profileFunction() {
+  const [file] = avatar.files;
+  if (file) {
+    showFileName(file.name);
+    tweetAvatar.src = URL.createObjectURL(file);
+  }
+}
+
+// Ini function untuk reset foto profilenya
+function resetProfileFunction() {
+  fileName.innerText = '';
+  fileName.classList.remove('show');
+  tweetAvatar.src = 'assets/silhoutte.png';
+}
+
+// Function untuk namanya
+function namaFunction() {
+  const nameValue = nama.value.trim();
+
+  if (nameValue === '') {
+    tweetName.innerText = 'Name';
+  } else if (nameValue.length > 30) {
+    tweetName.innerText = 'Nama Terlalu Panjang';
+  } else {
+    tweetName.innerText = nameValue;
+  }
+
+  const characterCountEl = nama.nextElementSibling.querySelector('.count');
+  characterCountEl.innerText = nameValue.length;
+}
+
+// Function untuk username Twitternya. + khusus huruf, angka, dan simbol.
+function usernameFunction() {
+  const usernameValue = username.value.trim();
+
+  if (usernameValue === '') {
+  tweetUsername.innerText = 'username';
+} else if (!usernameValue.match(/^[a-zA-Z0-9_]+$/)) {
+  tweetUsername.innerText = 'Gak boleh pakai itu';
+} else if (usernameValue.length > 15) {
+  tweetUsername.innerText = 'Username terlalu panjang';
+} else {
+  tweetUsername.innerText = usernameValue;
+}
+
+  const characterCountEl =
+    username.parentElement.nextElementSibling.querySelector('.count');
+  characterCountEl.innerText = usernameValue.length;
+}
+
+// Function untuk isi pesannya
+function pesanFunction() {
+  const messageValue = message.value.trim();
+
+  if (messageValue === '') {
+    tweetMessage.innerText = 'Lemon merupakan salah satu buah terbaik di dunia.';
+  } else if (messageValue.length > 280) {
+    tweetMessage.innerText = 'Pesan terlalu panjang'
+  } else {
+    tweetMessage.innerText = messageValue;
+  }
+
+  const characterCountEl = message.nextElementSibling.querySelector('.count');
+  characterCountEl.innerText = messageValue.length;
+}
+
+// Function untuk pengeditan / otomatis waktu
+function waktuFunction() {
+  const timeValue = waktu.value.trim();
+if (timeValue === '') {
+  tweetTime.innerText = getCurrentTime();
+  } else if (timeValue.toLowerCase() === 'now') {
+    tweetTime.innerText = getCurrentTime();
+  } else {
+    tweetTime.innerText = timeValue;
+  }
+}
+
+// Function untuk pengeditan / otomatis tanggal
+function tanggalFunction() {
+  const dateValue = tanggal.value.trim();
+
+  if (dateValue === '') {
+    tweetDate.innerText = ambilTanggal();
+  } else if (dateValue.toLowerCase() === 'now') {
+    tweetDate.innerText = ambilTanggal();
+  } else {
+    tweetDate.innerText = dateValue;
+  }
+}
+
+// Function untuk client, semacam watermark aplikasi Twitter lah
+function clientFunction() {
+  const clientValue = client.value.trim();
+
+  if (clientValue === '') {
+    tweetClient.innerText = 'Twitter For iPhone';
+  } else {
+    tweetClient.innerText = clientValue;
+  }
+}
+
+// Function untuk retweetsnya
+function retweetsFunction() {
+  tweetRetweets.parentElement.classList.remove('hide');
+let retweetsValue = retweets.value;
+
+if (retweetsValue === '') {
+  tweetRetweets.innerText = '96';
+} else {
+  retweetsValue = +retweetsValue;
+  if (retweetsValue >= 0) {
+    if (retweetsValue === 0) {
+      tweetRetweets.parentElement.classList.add('hide');
+    } else {
+      tweetRetweets.innerText = numberFormatter(retweetsValue);
+    }
+  } else {
+    tweetRetweets.innerText = '96';
+  }
+}
+}
+
+// Function untuk quotesnya
+function quotesFunction() {
+  tweetQuotes.parentElement.classList.remove('hide');
+let quotesValue = quotes.value;
+
+if (quotesValue === '') {
+  tweetQuotes.innerText = '88';
+} else {
+  quotesValue = +quotesValue;
+  if (quotesValue >= 0) {
+    if (quotesValue === 0) {
+      tweetQuotes.parentElement.classList.add('hide');
+    } else {
+      tweetQuotes.innerText = numberFormatter(quotesValue);
+    }
+  } else {
+    tweetQuotes.innerText = '88';
+  }
+}
+}
+
+// Function untul likenya 
+function likeFunction() {
+  tweetLikes.parentElement.classList.remove('hide');
+let likesValue = likes.value;
+
+if (likesValue === '') {
+  tweetLikes.innerText = '153';
+} else {
+  likesValue = +likesValue;
+  if (likesValue >= 0) {
+    if (likesValue === 0) {
+      tweetLikes.parentElement.classList.add('hide');
+    } else {
+      tweetLikes.innerText = numberFormatter(likesValue);
+    }
+  } else {
+    tweetLikes.innerText = '153';
+  }
+}
+}
+
+// Function untuk mengambil waktu saat ini
+function getCurrentTime() {
+  const dateObj = new Date();
+  let hours = +dateObj.getHours();
+  let minutes = ('00' + dateObj.getMinutes()).slice(-2);
+  let suffix;
+
+  if (hours > 12) {
+    hours = hours - 12;
+    suffix = 'PM';
+  } else {
+    if (hours === 0) {
+      hours = 12;
+      suffix = 'AM';
+    } else if (hours === 12) {
+      suffix = 'PM';
+    } else {
+      suffix = 'AM';
+    }
+  }
+
+  return `${hours}:${minutes} ${suffix}`;
+}
+
+// Function untuk mengambil tanggal saat ini
+function ambilTanggal() {
+  const MONTHS = [
+  'Jan',
+  'Feb',
+  'Mar',
+  'Apr',
+  'May',
+  'Jun',
+  'Jul',
+  'Aug',
+  'Sep',
+  'Oct',
+  'Nov',
+  'Dec',
+];
+  const dateObj = new Date();
+  const day = dateObj.getDate();
+  const month = dateObj.getMonth();
+  const year = dateObj.getFullYear();
+
+  return `${MONTHS[month]} ${day}, ${year}`;
+}
+
+// Untuk temanya
+function toggleTheme(ev) {
+  let choice;
+
+  for (let i = 0; i < themeRadios.length; i++) {
+    if (themeRadios[i].checked) {
+      choice = themeRadios[i].value;
+    }
+  }
+
+  if (choice === 'dim') {
+    tweet.className = 'tweet dim';
+    tweetBox.className = 'tweet_box dim';
+    themeColor = '#15202b';
+  } else if (choice === 'dark') {
+    tweet.className = 'tweet dark';
+    tweetBox.className = 'tweet_box dark';
+    themeColor = '#000000';
+  } else {
+    tweet.className = 'tweet';
+    tweetBox.className = 'tweet_box';
+    themeColor = '#ffffff';
+  }
+}
+
+// Function untuk tombol verifikasi
+function verifikasi() {
+  let choice;
+
+  for (let i = 0; i < verifiedRadios.length; i++) {
+    if (verifiedRadios[i].checked) {
+      choice = verifiedRadios[i].value;
+    }
+  }
+
+  if (choice === 'show') {
+    tweetVerified.classList.remove('hide');
+  } else {
+    tweetVerified.classList.add('hide');
+  }
+}
+
+// Hanya untuk nama file foto yang akan didownload
+function generateFileName() {
+  return `tweet${Math.floor(Math.random() * 90000) + 10000}`;
+}
+
+// Ini function download gambar
+function saveAs(uri, filename) {
+  const link = document.createElement('a');
+
+  if (typeof link.download === 'string') {
+    link.href = uri;
+    link.download = filename;
+
+    document.body.appendChild(link);
+
+    link.click();
+
+    document.body.removeChild(link);
+  } else {
+    window.open(uri);
+  }
+}
+
+// Hanya function screenshot dari file html2canvas.min.js
+// Saran gw jangan diubah, karena posisinya sudah pas
+function takeScreenshot() {
+  window.scrollTo(0, 0);
+  html2canvas(document.querySelector('.tweet'), {
+    allowTaint: true,
+    backgroundColor: themeColor,
+    useCORS: true,
+    scrollX: -window.scrollX,
+    scrollY: -window.scrollY,
+    windowWidth: document.documentElement.offsetWidth,
+    windowHeight: document.documentElement.offsetHeight,
+  }).then((canvas) => {
+    saveAs(canvas.toDataURL(), generateFileName());
+  });
+}
+
+// Ini biar waktu otomatis ditetapkan saat halaman dimuat
+function takWaktu() {
+  waktuFunction();
+  tanggalFunction();
+}
+
+takWaktu();
+
+// Ini semua hasil. Kalau mau diubah namanya, ubah juga nama fuctionnya diatas tadi
+avatar.addEventListener('change', profileFunction);
+reset.addEventListener('click', resetProfileFunction);
+nama.addEventListener('input', namaFunction);
+username.addEventListener('input', usernameFunction);
+message.addEventListener('input', pesanFunction);
+waktu.addEventListener('input', waktuFunction);
+tanggal.addEventListener('input', tanggalFunction);
+client.addEventListener('input', clientFunction);
+retweets.addEventListener('input', retweetsFunction);
+quotes.addEventListener('input', quotesFunction);
+like.addEventListener('input', likeFunction);
+download.addEventListener('click', takeScreenshot);
+
+for (let i = 0; i < themeRadios.length; i++) {
+  themeRadios[i].addEventListener('change', toggleTheme);
+}
+
+for (let i = 0; i < verifiedRadios.length; i++) {
+  verifiedRadios[i].addEventListener('change', verifikasi);
+    }
